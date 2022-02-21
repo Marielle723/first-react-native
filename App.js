@@ -15,6 +15,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 export default function App() {
   return (
     <View style={styles.wrapper}>
+      <StatusBar StatusBarStyle="light-content" translucent={true} />
       <View style={styles.container}>
         <View style={styles.grayRectangle}>
           <Image
